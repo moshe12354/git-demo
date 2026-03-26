@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		System.out.println("hello from branch2");
+		System.out.println("hello from branch2 considering branch1");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
